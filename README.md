@@ -1,62 +1,83 @@
-# React + Vite
+# Developer Portfolio — Yevhen Oshkukov
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive web portfolio to present my frontend and backend projects, resume, certificates, education, and contact form.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+##  Live Demo
 
-## Expanding the ESLint configuration
+🔗 [View it here](https://yevgen2022.github.io/Portfolio-React/)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
 
+##  Features
 
-Developer Portfolio — Yevhen Oshkukov
+- Clean UI with Tailwind CSS
+- Dynamic routing via React Router
+- Filterable project templates (Landing, Frontend-App, Backend)
+- Certificate and education sections
+- Contact form with success modal and Formspree integration
+- Dark mode support
 
-A modern, responsive web portfolio to present my frontend and backend projects, resume, certificates, and contact information.
+---
 
-Live Demo
+##  Tech Stack
 
-https://yevhen2022.github.io/Portfolio
+- **React + Vite**
+- Zustand for global state management
+- Tailwind CSS for styling
+- React Router DOM
+- React Icons
+- Formspree (form handling with fetch)
+- GitHub Pages for deployment
 
-Features
+---
 
-1.Clean UI with Tailwind CSS
+##  Folder Structure (simplified)
 
-2.Dynamic routing via React Router
-
-3.Filterable project templates (Landing, Frontend-App, Backend)
-
-4.Certificate and education sections
-
-5.Contact form with success modal and Formspree integration
-
-6.Dark mode support
-
-Tech Stack
-
-React + Vite
-
-Zustand for state management
-
-Tailwind CSS for styling
-
-React Router DOM
-
-react-icons
-
-Formspree (via fetch)
-
-Folder Structure (simplified)
+```
 
 src/
-├── assets/img/...        # images
-├── components/           # UI components (Card, Footer, etc.)
-├── pages/templates/      # Main route views (Home, Contact, etc.)
-├── pages/projectsDetails # Single project view
-├── data/                 # JSON/JS profile & projects data
-├── store/                # Zustand global state
-├── routes/               # Routing logic
+├── assets/img/ # Project, certificates, and profile images
+├── components/ # Reusable UI components (Card, Footer, Modal, etc.)
+├── pages/templates/ # Main route views (Home, Contact, Resume, etc.)
+├── pages/projectsDetails # Dynamic project detail views
+├── data/ # JSON/JS project and profile data
+├── store/ # Zustand global state logic
+├── routes/ # App routing configuration
+
+public/
+├── PaintCat.png # Favicon
+├── vite.svg # Default vite icon (if used)
+├── index.html # Base HTML file
+
+docs/
+├── Description.txt # Project purpose and stack (for internal/reference use)
+
+```
 
 
+---
+
+##  How Routing Works
+
+- Routing is handled by React Router v6
+- `BrowserRouter` uses a `basename="/Portfolio-React"` for GitHub Pages
+- Each project uses dynamic routes like `/projects/project-name`
+- All unmatched routes show "No Match" fallback
+
+---
+
+[//]: # (##  Contact)
+
+[//]: # ()
+[//]: # (Feel free to reach out:)
+
+[//]: # ()
+[//]: # (- GitHub: [github.com/Yevgen2022]&#40;https://github.com/Yevgen2022&#41;)
+
+[//]: # (- LinkedIn: [Yevhen Oshkukov]&#40;https://www.linkedin.com/in/yevhen-oshkukov-436973254/&#41;)
+
+[//]: # (- Email: [sy.yevhen.lc@gmail.com]&#40;mailto:sy.yevhen.lc@gmail.com&#41;)
+
+---
