@@ -25,8 +25,8 @@ export default function Home() {
                                 Hi! I'm <span className="text-blue-600">Yevhen Oshkukov</span>
                             </h2>
                             <p className="text-xl leading-relaxed mb-6 max-w-2xl">
-                                A frontend developer passionate about building performant, accessible, and elegant user
-                                interfaces.
+                                Frontend developer specializing in React and TypeScript, with hands-on experience
+                                building SPAs and integrating REST APIs.
                             </p>
                             <div className="flex flex-wrap justify-center md:justify-start gap-4">
                                 <a href="#contact" className="btn-style">

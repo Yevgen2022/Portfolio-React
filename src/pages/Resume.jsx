@@ -33,13 +33,13 @@ export default function Resume() {
                 {/* Experience 1 */}
                 <div className="mb-6">
                     <h3 className="font-semibold">
-                        Self-learning <span
+                        Front-end Developer — Task Management Platform (NDA) <span
                         className="text-sm text-gray-500 dark:text-gray-400">| Feb 2025 – Present</span>
                     </h3>
                     <ul className="list-disc list-inside ml-4 mt-2 space-y-1">
-                        <li>Building a personal SPA project with React, TypeScript, Redux Toolkit, and Tailwind CSS.
+                        <li>Developing a comprehensive SPA application with React, TypeScript, Redux Toolkit, and Tailwind CSS.
                         </li>
-                        <li>Implemented routing (React Router v6), JWT-based authentication, and theme switching
+                        <li>Implemented advanced routing (React Router v6), JWT-based authentication, and theme switching
                             (dark/light mode).
                         </li>
                         <li>Integrated REST API data using async thunks and displayed paginated content with loading
@@ -48,8 +48,8 @@ export default function Resume() {
                         <li>Focused on clean, maintainable code (following ESLint/Prettier rules and DRY/KISS
                             principles).
                         </li>
-                        <li>Practicing accessibility, performance optimization, and responsive design techniques.</li>
-                        <li>Using Git and GitHub for version control and codebase organization.</li>
+                        <li>Implementing accessibility features, performance optimization, and responsive design techniques.</li>
+                        <li>Using Git and GitHub for version control and project organization.</li>
                     </ul>
                 </div>
 
@@ -60,43 +60,43 @@ export default function Resume() {
                         className="text-sm text-gray-500 dark:text-gray-400">| Feb 2024 – Feb 2025</span>
                     </h3>
                     <ul className="list-disc list-inside ml-4 mt-2 space-y-1">
-                        <li>Worked on internal tools under mentorship, building reusable UI components with: Laravel,
-                            React, Vue, JS, Tailwind CSS.
+                        <li>Developed production-ready internal tools and training projects under senior mentorship, creating reusable UI components with Laravel,
+                            React, Vue, JavaScript, and Tailwind CSS.
                         </li>
-                        <li>Implemented REST API integration (Axios/fetch), routing (Vue Router/React Router), and
-                            authentication flows.
+                        <li>Implemented complex REST API integration using Axios/fetch, built dynamic routing systems (Vue Router/React Router), and
+                            developed secure authentication flows with JWT tokens.
                         </li>
-                        <li>Developed internal tools and training projects under senior mentorship.</li>
-                        <li>Assisted in backend tasks: creating Laravel routes, Blade views, and controllers using MVC
-                            principles.
+                        <li>Built fully responsive web applications from Figma designs, ensuring cross-browser compatibility and mobile-first approach.</li>
+                        <li>Contributed to full-stack development: designed and implemented Laravel routes, created dynamic Blade views, and built robust controllers following MVC
+                            architecture principles.
                         </li>
-                        <li>Participated in weekly code reviews, received feedback from senior developers, and improved
-                            problem-solving approach.
+                        <li>Actively participated in weekly code reviews with senior developers, implemented feedback to improve code quality, and
+                            developed strong problem-solving methodologies.
                         </li>
-                        <li>Used GitHub for version control and collaboration.</li>
-                        <li>Gained hands-on backend experience with Laravel and MVC.</li>
+                        <li>Managed version control and collaborated on team projects using GitHub, following professional Git workflows and branching strategies.</li>
+                        <li>Delivered hands-on contributions to both frontend and backend development, mastering Laravel framework and MVC patterns.</li>
                     </ul>
                 </div>
 
                 {/* Experience 3 */}
                 <div>
                     <h3 className="font-semibold">
-                        Front-End Development - Prometheus, SBC, Laracast, Ciklum <span
-                        className="text-sm text-gray-500 dark:text-gray-400">| Online Courses 2022 - 2024</span>
+                        Front-End Development — Professional Training <span
+                        className="text-sm text-gray-500 dark:text-gray-400">| 2022 - 2024</span>
                     </h3>
                     <ul className="list-disc list-inside ml-4 mt-2 space-y-1">
-                        <li>Completed comprehensive front-end development courses, focusing on JavaScript, <span
+                        <li>Completed intensive front-end development programs through Prometheus, SBC, Laracast, and Ciklum, focusing on JavaScript, <span
                             className="block ml-5">TypeScript, React, Redux, HTML5, CSS3, Tailwind CSS, and Git.</span>
                         </li>
-                        <li>Built and deployed multiple projects (portfolio site, to-do app, weather app) using React
-                            and modern tooling.
+                        <li>Built and deployed multiple production-ready projects (portfolio site, task management app, weather dashboard) using React
+                            and modern development tools.
                         </li>
-                        <li>Integrated APIs like TMDB and OpenWeather, implemented routing, state management with Redux,
-                            and form validation.
+                        <li>Integrated third-party APIs (TMDB, OpenWeather), implemented complex routing, state management with Redux,
+                            and comprehensive form validation.
                         </li>
-                        <li>Practiced converting Figma designs into responsive, pixel-perfect layouts using Tailwind.
+                        <li>Converted Figma designs into pixel-perfect, responsive layouts using Tailwind CSS and modern CSS techniques.
                         </li>
-                        <li>Gained hands-on experience with Git, GitHub, and collaboration workflows.</li>
+                        <li>Mastered Git workflows, GitHub collaboration, and professional development practices.</li>
                     </ul>
                 </div>
             </section>
@@ -105,12 +105,14 @@ export default function Resume() {
             <section className="mb-10">
                 <h2 className="text-xl font-bold mb-2">Education</h2>
                 <ul className="list-disc list-inside ml-4 space-y-2">
-                    <li>Bachelor’s degree: Applied Mathematics — Ivan Franko National University of Lviv (1996–2002).
+                    <li>Bachelor's degree: Applied Mathematics and Informatics — Ivan Franko National University of Lviv (1996–2002).
+                        <span className="block ml-5 text-sm text-gray-600 dark:text-gray-400">Qualification: Mathematician, Specialization: Informatics</span>
                     </li>
-                    <li>Master’s degree: Information Systems and Technologies — National Environmental University of
+                    <li>Master's degree: Information Systems and Technologies — National Environmental University of
                         Lviv (2022–2024).
+                        <span className="block ml-5 text-sm text-gray-600 dark:text-gray-400">Professional qualification upgrade in Information Technologies</span>
                     </li>
-                    <li>Online Courses (2022–2024): Prometheus, CBS, Laracast, Ciklum, ITVDN.</li>
+                    <li>Professional Development (2022–2024): Prometheus, CBS, Laracast, Ciklum, ITVDN.</li>
                 </ul>
             </section>
 
