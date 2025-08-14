@@ -22,7 +22,7 @@ export default function Resume() {
                     Front-end developer with strong self-learning motivation. Proficient in building SPA applications
                     using
                     React, TypeScript, and Tailwind CSS. Adept in REST API integration, state management, and clean code
-                    principles. Seeking to join a tech-driven team where I can contribute and grow further.
+                    principles. Recently started back-end learning with Node.js and Express. Seeking to join a tech-driven team where I can contribute and grow further.
                 </p>
             </section>
 
@@ -49,6 +49,7 @@ export default function Resume() {
                             principles).
                         </li>
                         <li>Implementing accessibility features, performance optimization, and responsive design techniques.</li>
+                        <li>Prototyping simple REST API backend with Node.js and Express.js as part of full-stack learning.</li>
                         <li>Using Git and GitHub for version control and project organization.</li>
                     </ul>
                 </div>
@@ -75,6 +76,8 @@ export default function Resume() {
                         </li>
                         <li>Managed version control and collaborated on team projects using GitHub, following professional Git workflows and branching strategies.</li>
                         <li>Delivered hands-on contributions to both frontend and backend development, mastering Laravel framework and MVC patterns.</li>
+                        <li>Started building foundational back-end skills using Node.js, Express, and RESTful APIs to better understand full-stack development.</li>
+
                     </ul>
                 </div>
 
@@ -128,6 +131,7 @@ export default function Resume() {
                     <li>Git, GitHub, GitLab, Figma</li>
                     <li>REST API, Routing, Authentication</li>
                     <li>MVC, SOLID, DRY</li>
+                    <li>Node.js (basic), Express.js (basic)</li>
                 </ul>
             </section>
 
