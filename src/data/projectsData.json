@@ -1,7 +1,7 @@
 [
   {
     "id": "weeb",
-    "type": "landing",
+    "type": "landing-tutorial",
     "title": "Weeb Website",
     "description": "Responsive landing page for a product based on a mock-up with Figma.",
     "featured": "true",
