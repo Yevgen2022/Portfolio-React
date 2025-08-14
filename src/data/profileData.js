@@ -1,5 +1,5 @@
 import {
-    FaHtml5, FaCss3Alt, FaJs, FaReact, FaGitAlt, FaBootstrap, FaLaravel, FaDatabase
+    FaHtml5, FaCss3Alt, FaJs, FaReact, FaGitAlt, FaBootstrap, FaLaravel, FaDatabase, FaNodeJs
 } from "react-icons/fa";
 import { SiTypescript, SiTailwindcss } from "react-icons/si";
 
@@ -20,6 +20,7 @@ export const skills = [
     { Icon: FaLaravel, label: "Laravel", color: "text-red-600" },
     { Icon: FaDatabase, label: "SQL", color: "text-red-600" },
     { Icon: SiTypescript, label: "TypeScript", color: "text-blue-600" },
+    { Icon: FaNodeJs, label: "Node.js", color: "text-green-600" },
 ];
 
 
