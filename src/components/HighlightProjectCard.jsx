@@ -7,7 +7,7 @@ export default function HighlightProjectCard({ project }) {
     const typeToImage = {
         'frontend-app': frontendImg,
         'backend-app': backendImg,
-        'landing': landingImg,
+        'landing-tutorial': landingImg,
     };
 
     const imagePath = typeToImage[project.type];

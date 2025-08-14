@@ -115,7 +115,7 @@ export default function Resume() {
                         Lviv (2022–2024).
                         <span className="block ml-5 text-sm text-gray-600 dark:text-gray-400">Professional qualification upgrade in Information Technologies</span>
                     </li>
-                    <li>Professional Development (2022–2024): Prometheus, CBS, Laracast, Ciklum, ITVDN.</li>
+                    <li>Professional Development (2022–2024): Prometheus, CBS, Laracast, Ciklum, ITVDN, iTGid</li>
                 </ul>
             </section>
 
@@ -141,6 +141,8 @@ export default function Resume() {
                 <div className="ml-9 space-y-2">
                     <p>English — Upper Intermediate (B2)</p>
                     <p>Ukrainian — Fluent</p>
+                    <p>Polish — A2</p>
+                    <p>Russian — Fluent</p>
                 </div>
             </section>
 
