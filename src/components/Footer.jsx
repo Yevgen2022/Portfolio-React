@@ -21,7 +21,7 @@ export default function Footer() {
                     </a>
                 </div>
 
-                <p>&copy; 2025 Yevhen Oshkukov — Frontend Developer</p>
+                <p>&copy; 2025 Yevhen Oshkukov — Full Stack Developer</p>
             </div>
         </footer>
     )
