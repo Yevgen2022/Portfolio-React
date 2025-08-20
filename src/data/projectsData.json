@@ -139,7 +139,7 @@
   {
     "id": "laravel-first-project",
     "type": "fullstack-app",
-    "title": "Laravel First Project",
+    "title": "Laravel Blog Application",
     "description": "Educational Laravel app with routing, controllers, Blade templates, migrations, and model relationships.",
     "featured": "false",
     "technologies": [
