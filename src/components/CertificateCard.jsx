@@ -16,7 +16,7 @@ export default function CertificateCard({ title, issuer, date, link }) {
                         to={link}
                         className="text-blue-600 text-sm inline-block mt-2 hover:underline"
                     >
-                        View Certificates
+                        View All Certificates
                     </Link>
                 </div>
             </div>
