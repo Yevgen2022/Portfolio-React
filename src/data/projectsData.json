@@ -1,8 +1,8 @@
 [
   {
     "id": "weeb",
-    "type": "landing-tutorial",
-    "title": "Weeb Website",
+    "type": "landing",
+    "title": "Weeb Website (mentor-guided project)",
     "description": "Responsive landing page for a product based on a mock-up with Figma.",
     "featured": "true",
     "technologies": ["HTML5", "CSS3", "JavaScript", "Figma", "Media Queries"],
@@ -65,12 +65,12 @@
   },
   {
     "id": "sincos-admin",
-    "type": "backend-app",
+    "type": "fullstack-app",
     "title": "Sincos Admin Panel",
     "description": "Admin dashboard application built with Laravel and Blade templates to manage products and users.",
     "featured": "true",
     "technologies": ["Laravel", "Blade", "Tailwind CSS", "Laravel Auth", "Resource Controllers", "DummyJSON API"],
-    "architecture": "MVC pattern with server-side rendering using Blade. RESTful routing and resource controllers for clean backend logic.",
+    "architecture": "MVC pattern with server-side rendering using Blade. RESTful routing and resource controllers for clean fullstack logic.",
     "endpoints": [
       "/products (GET, POST, PUT, DELETE)",
       "/users (GET, POST, PUT, DELETE)",
@@ -94,7 +94,7 @@
   },
   {
     "id": "vanilla-notes-php",
-    "type": "backend-app",
+    "type": "fullstack-app",
     "title": "Notes App with Vanilla PHP",
     "description": "Educational project that demonstrates building a CRUD app using pure PHP with custom routing, middleware, and views.",
     "featured": "false",
@@ -138,7 +138,7 @@
   },
   {
     "id": "laravel-first-project",
-    "type": "backend-app",
+    "type": "fullstack-app",
     "title": "Laravel First Project",
     "description": "Educational Laravel app with routing, controllers, Blade templates, migrations, and model relationships.",
     "featured": "false",

@@ -14,7 +14,7 @@ export default function ProjectDetails() {
 
     // Dynamically render template by type
     switch (project.type) {
-        case "landing-tutorial":
+        case "landing":
             return <LandingTemplate {...project} />;
 
         case "educational":
@@ -23,7 +23,7 @@ export default function ProjectDetails() {
         case "frontend-app":
             return <FrontendAppTemplate {...project} />;
 
-        case "backend-app":
+        case "fullstack-app":
             return <BackendAppTemplate {...project} />;
 
         default:

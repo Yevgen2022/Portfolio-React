@@ -6,8 +6,8 @@ import landingImg from '../assets/img/ProjectsFoto/landing320.png';
 export default function HighlightProjectCard({ project }) {
     const typeToImage = {
         'frontend-app': frontendImg,
-        'backend-app': backendImg,
-        'landing-tutorial': landingImg,
+        'fullstack-app': backendImg,
+        'landing': landingImg,
     };
 
     const imagePath = typeToImage[project.type];
