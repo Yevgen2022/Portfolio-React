@@ -57,6 +57,12 @@ export const certificates = [
 
 export const courses = [
     {
+        title: "Node.js 2024",
+        place: "ITGid 2025",
+        description:
+            "Introduces essential Node.js skills: working with the runtime environment, modules, npm, asynchronous code, Express.js, and connecting to databases.",
+    },
+    {
         title: "English course B2 level",
         place: "Green Forest 2025",
         description:
