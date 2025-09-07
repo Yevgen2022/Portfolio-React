@@ -37,7 +37,7 @@ export default function Resume() {
                 {/* Experience 1 */}
                 <div className="mb-6">
                     <h3 className="font-semibold">
-                        Full Stack Developer — Task Management Platform (NDA) <span
+                        Portfolio Projects - Full Stack Developer <span
                         className="text-sm text-gray-500 dark:text-gray-400">| Feb 2025 – Present</span>
                     </h3>
                     <ul className="list-disc list-inside ml-4 mt-2 space-y-1">
@@ -67,7 +67,7 @@ export default function Resume() {
                 {/* Experience 2 */}
                 <div className="mb-6">
                     <h3 className="font-semibold">
-                        Full Stack Trainee — SincosSoftware (Norwegian company) <span
+                        Full Stack Trainee — SincosSoftware <span
                         className="text-sm text-gray-500 dark:text-gray-400">| Feb 2024 – Feb 2025</span>
                     </h3>
                     <ul className="list-disc list-inside ml-4 mt-2 space-y-1">
@@ -151,10 +151,10 @@ export default function Resume() {
                 <h2 className="text-xl font-bold mb-2">Technical Skills</h2>
                 <ul className="list-disc list-inside ml-4 space-y-2">
                     <li>
-                        <span className="font-semibold">Core:</span> JavaScript, TypeScript, React, Node.js, Express, Redux Toolkit, Tailwind CSS, REST APIs
+                        <span className="font-semibold">Core:</span> JavaScript, TypeScript, React, Node.js, Express, CSS3, Tailwind CSS, REST APIs
                     </li>
                     <li>
-                        <span className="font-semibold">Additional:</span> Vue, Laravel, Zustand, Figma
+                        <span className="font-semibold">Additional:</span> Vue, Laravel, Zustand, Redux Toolkit, Figma
                     </li>
                     <li>
                         <span className="font-semibold">Principles:</span> MVC, SOLID, DRY
