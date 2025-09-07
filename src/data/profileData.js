@@ -6,6 +6,7 @@ import { SiTypescript, SiTailwindcss } from "react-icons/si";
 import itvdncss from "../assets/img/Certificates/ITVDN-CSS.png";
 import itvdngit from "../assets/img/Certificates/ITVDN-GIT.png";
 import itvdnjss from "../assets/img/Certificates/ITVDN-JSS.png";
+import itgidnode from "../assets/img/Certificates/ITGID-NODE2024.png";
 import ciklumCert from "../assets/img/Certificates/Ciklum.png";
 import testEngineerCert from "../assets/img/Certificates/TestEngineer.png";
 import greenForestB2Cert from "../assets/img/Certificates/Green Forest Certificate(B2).png";
@@ -89,12 +90,15 @@ export const courses = [
 
 export const visualCertificates = [
 
-    { img: testEngineerCert, title: "QA/QC Engineer", desc: "Dotli-online university, 2022" },
-    { img: ciklumCert, title: "Frontend Developer", desc: "Ciklum, Prometheus 2023" },
-    { img: itvdncss, title: "HTML, CSS Development", desc: "CBS, ITVDN 2024" },
-    { img: itvdngit, title: "The basic of using GIT", desc: "CBS, ITVDN 2024" },
-    { img: itvdnjss, title: "Java script CBS", desc: "CBS, ITVDN 2024" },
-    { img: greenForestB1Cert, title: "English course B1 level", desc: "Green Forest, 2024" },
+
+    { img: itgidnode, title: "Node.js Fundamentals", desc: "ITGid - Education platform 2025" }, 
     { img: greenForestB2Cert, title: "English course B2 level", desc: "Green Forest, 2025" },
+    { img: itvdncss, title: "HTML, CSS Development", desc: "CBS, ITVDN - Education platform 2024" },
+    { img: itvdngit, title: "The basic of using GIT", desc: "CBS, ITVDN - Education platform 2024" },    
+    { img: itvdnjss, title: "Java script CBS", desc: "CBS, ITVDN - Education platform 2024" },
+    { img: greenForestB1Cert, title: "English course B1 level", desc: "Green Forest, 2024" },    
+    { img: ciklumCert, title: "Frontend Developer", desc: "Ciklum, Prometheus 2023" },
+    { img: testEngineerCert, title: "QA/QC Engineer", desc: "Dotli-online university, 2022" },
+
 
 ];
