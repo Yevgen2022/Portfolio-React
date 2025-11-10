@@ -7,6 +7,7 @@ import itvdncss from "../assets/img/Certificates/ITVDN-CSS.png";
 import itvdngit from "../assets/img/Certificates/ITVDN-GIT.png";
 import itvdnjss from "../assets/img/Certificates/ITVDN-JSS.png";
 import itgidnode from "../assets/img/Certificates/ITGID-NODE2024.png";
+import bidmatic from "../assets/img/Certificates/Bidmatic.png";
 import ciklumCert from "../assets/img/Certificates/Ciklum.png";
 import testEngineerCert from "../assets/img/Certificates/TestEngineer.png";
 import greenForestB2Cert from "../assets/img/Certificates/Green Forest Certificate(B2).png";
@@ -57,6 +58,12 @@ export const certificates = [
 
 export const courses = [
     {
+        title: "Full Stack",
+        place: "Adtelligent/Bidmatic (AdTech) 2025",
+        description:
+            "Internship focused on building advertising technology solutions. Developed backend modules with Fastify and Prisma, integrated Prebid.js adapters, and implemented ad auction and tracking logic.",
+    },
+    {
         title: "Node.js 2024",
         place: "ITGid 2025",
         description:
@@ -69,7 +76,7 @@ export const courses = [
             "Practiced advanced grammar, technical vocabulary, and real-life communication scenarios for the IT industry.",
     },
     {
-        title: "Full-Stack Web Development",
+        title: "Full Stack Web Development",
         place: "CBS, ITVDN 2024",
         description:
             "Covered React, Node.js, Laravel, HTML, CSS, Typescript, Tailwind, SQL and project deployment.",
@@ -96,7 +103,7 @@ export const courses = [
 
 export const visualCertificates = [
 
-
+    { img: bidmatic, title: "Full Stack Internship", desc: "Adtelligent / Bidmatic, 2025" },
     { img: itgidnode, title: "Node.js Fundamentals", desc: "ITGid - Education platform 2025" }, 
     { img: greenForestB2Cert, title: "English course B2 level", desc: "Green Forest, 2025" },
     { img: itvdncss, title: "HTML, CSS Development", desc: "CBS, ITVDN - Education platform 2024" },
@@ -105,6 +112,5 @@ export const visualCertificates = [
     { img: greenForestB1Cert, title: "English course B1 level", desc: "Green Forest, 2024" },    
     { img: ciklumCert, title: "Frontend Developer", desc: "Ciklum, Prometheus 2023" },
     { img: testEngineerCert, title: "QA/QC Engineer", desc: "Dotli-online university, 2022" },
-
 
 ];
