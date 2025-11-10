@@ -1,7 +1,8 @@
 import {
     FaHtml5, FaCss3Alt, FaJs, FaReact, FaGitAlt, FaBootstrap, FaLaravel, FaDatabase, FaNodeJs
 } from "react-icons/fa";
-import { SiTypescript, SiTailwindcss } from "react-icons/si";
+import { SiTypescript, SiTailwindcss, SiMongodb, SiPrisma,
+    SiSequelize, SiExpress, SiFastify } from "react-icons/si";
 
 import itvdncss from "../assets/img/Certificates/ITVDN-CSS.png";
 import itvdngit from "../assets/img/Certificates/ITVDN-GIT.png";
@@ -25,6 +26,12 @@ export const skills = [
     { Icon: FaDatabase, label: "SQL", color: "text-red-600" },
     { Icon: SiTypescript, label: "TypeScript", color: "text-blue-600" },
     { Icon: FaNodeJs, label: "Node.js", color: "text-green-600" },
+    { Icon: SiFastify, label: "Fastify", color: "text-gray-700 dark:text-gray-300" },
+    { Icon: SiExpress, label: "Express", color: "text-gray-700 dark:text-gray-300" },
+    { Icon: SiMongodb, label: "MongoDB", color: "text-green-500" },
+    { Icon: SiPrisma, label: "Prisma", color: "text-indigo-500" },
+    { Icon: SiSequelize, label: "Sequelize", color: "text-blue-700" },
+    { Icon: FaDatabase, label: "ClickHouse", color: "text-amber-600" },
 ];
 
 
