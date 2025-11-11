@@ -25,9 +25,8 @@ export default function Home() {
                                 Hi! I'm <span className="text-blue-600">Yevhen Oshkukov</span>
                             </h2>
                             <p className="text-xl leading-relaxed mb-6 max-w-3xl">
-                                Full Stack JavaScript developer passionate about creating modern, efficient,
-                                and user-friendly web applications. Constantly improving skills and exploring
-                                new technologies to deliver clean, reliable solutions.
+                                Full Stack JavaScript developer with 1+ year of practical experience in React, TypeScript, and Node.js.
+                                Focused on building efficient, user-friendly web applications and expanding backend expertise
                             </p>
 
                             <div className="flex flex-wrap justify-center md:justify-start gap-4">

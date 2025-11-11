@@ -50,15 +50,15 @@ export const educations = [
 
 export const certificates = [
     {
-        title: "Frontend Developer",
-        issuer: "Ciklum, Prometheus",
-        date: "Completed March 2023",
+        title: "Full Stack Developer",
+        issuer: "Adtelligent / Bidmatic",
+        date: "Completed in September 2025",
         link: "/certificates",
     },
     {
-        title: "Full-stack developer",
-        issuer: "CBS, ITVDN",
-        date: "Completed December 2024",
+        title: "Node.js Developer",
+        issuer: "ITGid",
+        date: "Completed in August 2025",
         link: "/certificates",
     },
 ];
