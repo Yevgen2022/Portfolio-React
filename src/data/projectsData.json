@@ -1,10 +1,61 @@
 [
   {
+    "id": "news-adtech",
+    "type": "fullstack-app",
+    "title": "News Platform with AdTech Integration",
+    "description": "Full-stack news website combining RSS feed aggregation with programmatic advertising using Prebid.js adapters for Adtelligent and Bidmatic.",
+    "featured": "true",
+    "technologies": [
+      "React",
+      "TypeScript",
+      "Fastify",
+      "Prisma",
+      "MongoDB",
+      "ClickHouse",
+      "Prebid.js",
+      "Docker",
+      "Tailwind CSS"
+    ],
+    "architecture": "Modular architecture with Fastify backend (API, caching, RSS parsing) and React + TypeScript frontend. Backend handles feed parsing, caching via Prisma and ClickHouse, while frontend renders news articles and integrates ad auctions through a virtual Prebid.js import.",
+    "endpoints": [
+      "GET /feed — fetches and caches RSS feed data",
+      "POST /parse — parses raw article HTML (via Cheerio) and returns structured article content",
+      "GET /article — returns parsed article content (by id or slug)",
+      "POST /ads/auction — client-initiated endpoint to start ad auction flow (Prebid.js integration)",
+      "POST /adserver/bid — processes bid requests from adapters and returns best matching line item",
+      "GET /adserver/lineitem/form — renders SSR HTML form for creating line items",
+      "POST /adserver/lineitem/save — uploads creative and saves new line item with targeting",
+      "POST /events — save auction/analytics event to batch queue (written to ClickHouse)",
+      "GET /events — read stored auction/analytics events (queryable)",
+      "POST /register — register a new user (creates account/session)",
+      "POST /login — authenticate user and create session",
+      "POST /logout — logout current user and clear session cookie",
+      "GET /whoami — returns current authenticated user info (or 401 if unauthenticated)",
+      "POST /adserver/lineitem/preview (optional) — preview rendered creative for validation",
+      "GET /health — health check / status endpoint"
+    ],
+    "security": [
+      "CORS and rate limiting for API endpoints",
+      "Environment-based configuration for API keys and secrets",
+      "Data validation with Zod",
+      "Sanitized RSS and HTML parsing to prevent injection attacks"
+    ],
+    "challenges": [
+      "Integrating Prebid.js auction flow with a single-page React app",
+      "Parsing HTML articles from external RSS feeds efficiently",
+      "Managing ad slot rendering and refresh logic dynamically",
+      "Optimizing caching between Prisma ORM and ClickHouse analytics"
+    ],
+    "repoLink": "https://github.com/Yevgen2022/Intern_NS_Back",
+    "liveDemo": ""
+  },
+
+  {
     "id": "weeb",
     "type": "landing",
     "title": "Weeb Website (mentor-guided project)",
     "description": "Responsive landing page for a product based on a mock-up with Figma.",
-    "featured": "true",
+    "featured": "false",
     "technologies": ["HTML5", "CSS3", "JavaScript", "Figma", "Media Queries"],
     "goals": [
       "Implements designs created in Figma using modern web technologies.",
@@ -39,29 +90,6 @@
     ],
     "repoLink": "https://github.com/Yevgen2022/Portfolio-React",
     "liveDemo": "https://yevgen2022.github.io/Portfolio-React/"
-  },
-  {
-    "id": "react-todo",
-    "type": "frontend-app",
-    "title": "React Todo App",
-    "description": "A simple todo application built with React that allows users to manage their daily tasks.",
-    "featured": "false",
-    "technologies": ["React", "JavaScript", "CSS", "Local State", "Modal UI"],
-    "features": [
-      "Add, edit, and delete tasks",
-      "Filter tasks by completion status",
-      "Sort tasks by date or title",
-      "Modal popup for editing tasks",
-      "Responsive design using CSS"
-    ],
-    "challenges": [
-      "Managing local component state for multiple interactions",
-      "Implementing controlled forms and validation",
-      "Creating a clean and accessible modal for editing tasks",
-      "Handling dynamic list rendering and updates"
-    ],
-    "repoLink": "https://github.com/Yevgen2022/ReactTodo",
-    "liveDemo": "https://yevgen2022.github.io/ReactTodo/"
   },
   {
     "id": "sincos-admin",
