@@ -25,8 +25,12 @@ export default function Home() {
                                 Hi! I'm <span className="text-blue-600">Yevhen Oshkukov</span>
                             </h2>
                             <p className="text-xl leading-relaxed mb-6 max-w-3xl">
-                                Full Stack JavaScript developer with 1+ year of practical experience in React, TypeScript, and Node.js.
-                                Focused on building efficient, user-friendly web applications and expanding backend expertise
+                                Full-stack JavaScript developer with 1.5 years of commercial experience,
+                                strongly focused on Node.js backend development.
+                                I build REST APIs, authentication systems, and design databases,
+                                and I’m comfortable integrating backend services with modern React frontends.
+                                Looking for a role where I can work across the stack while contributing
+                                primarily to backend architecture and business logic.
                             </p>
 
                             <div className="flex flex-wrap justify-center md:justify-start gap-4">

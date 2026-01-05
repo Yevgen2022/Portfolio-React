@@ -47,7 +47,8 @@
       "Optimizing caching between Prisma ORM and ClickHouse analytics"
     ],
     "repoLink": "https://github.com/Yevgen2022/Intern_NS_Back",
-    "liveDemo": "https://adtelligent-internship.vercel.app"
+    "liveDemo": "https://adtelligent-internship.vercel.app",
+    "swaggerLink": "https://internnsback-production.up.railway.app/docs"
   },
 
   {
